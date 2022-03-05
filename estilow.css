@@ -1,0 +1,193 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Titillium+Web & display=swap');
+@font-face {
+    font-family: 'FonteLogo';
+    src: url('_fonts/bubblegum-sans-regular.otf');
+}
+/*____________________ PAGINA INDEX______________________*/
+/*PAGINA INDEX SUA FORMATAÇÃO LARGURA ETC*/
+div#interface {
+    width: 1000px;
+    background-color: #ffffff;
+    margin: 0px auto 0px auto;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+}
+
+
+/*NOME ATRIBUIDO A (MINHA PRIMEIRA)*/
+section#ladoB h1{
+   display: block;
+   float: end;
+   font-size: 25pt;
+   color: #ffffff;
+   text-align: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   background-color: black;
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: -50px;
+   margin: -20px -20px auto -20px;
+   
+}
+article#esquerda {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   display: block;
+   text-align: center;   
+  
+  
+}
+article#direita {
+
+   text-align: center;
+   padding-top: 30px;
+   margin-top: -25px;
+   border-bottom: 2px solid black;
+   background-color: rgba(117, 0, 128, 0.13);
+   border-top: 4px solid black;
+   
+   
+}
+section#meuEu p{
+   font-size: 12pt;
+   width: 250px;
+   text-align: center;
+   color: red;
+   background-color: #606060;
+   margin: -20px; 
+}
+section#logoIfto a{
+   display: block;
+   float: right;
+   width: 150px;
+   height: 10px;
+
+   font-size: 12pt;
+   text-align: center;
+   color: red;
+   background-color: black;
+   margin-right: -20px;
+   margin-top: -40px;
+   padding-top: -50px;
+}
+footer{
+   display: block;
+   float: left;
+   width: 860px;
+   height: 40px;
+   font-size: 12pt;
+   text-align: center;
+   background-color:green;
+   color: white;
+   margin-left: -20px;
+   margin-top: 5px;
+}
+
+
+td{
+   text-align: center; /*Parafrago justificado*/
+   font-size: 14t;
+   height: 40px;
+   background-color: #606060;
+   color: white;
+   border: 1px solid white;
+  
+ }
+th{
+   text-align: center; /*Parafrago justificado*/
+   text-indent: 0px; /*inicio de paragrafo*/
+   font-size: 14pt;
+   background-color: #000000;
+   color: aliceblue;
+   height: 35px;
+   width: 250px;
+   border: 1px solid white;
+ }
+
+/*_________________________ FIM PAGINA INDEX_______________________*/
+
+
+
+
+/*____________________ PAGINA DA IMENTA______________________*/
+/*E PARA PAGINA IMENTA*/
+div#interfaceEmenta {
+   width: 1000px;
+   background-color: #ffffff;
+   margin: auto auto -10px auto;
+   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+   padding: 20px; /* pode ser usado 10px 10px 10px 10px da nos msm*/
+}
+/*E PARA PAGINA IMENTA (NOME DA IFTO)*/
+section#ttifto{
+  display: block;
+  color: white;
+  background-color: green;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6);
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-top: -65px;
+  margin-bottom: -20px;
+}
+section#tlMateria h3{
+   display: block;
+   height: 55px;
+   width: 750px;
+   float: right;
+   box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.2);
+   margin-top: -100px;
+   margin-right: -20px;
+   background-color: darkmagenta;
+   color: white;
+   font-family:  monospace;
+   border: 1px solid #ffffff;
+   text-align: center;
+   font-size: 25pt;
+
+  
+}
+section#ttifto h1{  
+   display: block;
+   font-size: 35pt;
+   text-align: center;
+}
+section#ttifto h2{  
+   display: block;
+   font-size: 20pt;
+   text-align: center;
+   background-color: rgb(56, 55, 55);
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin-top: -30px;
+}
+
+/*__________________ FORMATAÇÃO GERAL_________________*/
+h1{
+   font-size: 30Pt;
+}
+h3{
+   font-size: 20pt;
+}
+p { 
+    text-align: justify; /*Para  frago justificado*/
+    text-indent: 50px; /*inicio de paragrafo*/
+    font-size: 15pt;
+ }
+a {
+    color: red;
+    text-decoration: none;
+    padding: 15px;
+ }
+ul {
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 5px; /*inicio de paragrafo*/
+    font-size: 15pt;
+ }
+article li{
+   font-size: 15Pt;
+} 
+ol{
+    text-align: justify; /*Parafrago justificado*/
+    text-indent: 5px; /*inicio de paragrafo*/ 
+    font-size: 15pt;
+ }
